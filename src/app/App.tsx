@@ -1,5 +1,9 @@
-function App() {
-  return <div className="App">GraphQL + FSD</div>;
-}
+import { LaunchesPage } from "../pages/launches/UI/LaunchesPage";
 
-export default App;
+export const App: React.FC = () => {
+  return (
+    <div className="App">
+      <LaunchesPage />
+    </div>
+  );
+};
